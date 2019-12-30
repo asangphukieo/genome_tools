@@ -1,1 +1,16 @@
 
+#to convert fasta file to 1 line-sequence file
+----
+perl fasta1line.pl input.fasta output.fasta
+-----------------
+-----------------
+
+#to split fasta file to small sequential fasta file (require 1line-sequence fasta)
+-----
+usage: run_slidingSeq.py -f SEQFILE -w WINSIZE -s STEP -p PATH
+
+WINSIZE: window size or sequence lenght
+STEP: step size for moving
+PATH: output path
+-----------------
+-----------------
